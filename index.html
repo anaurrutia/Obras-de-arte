@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Obras de Arte</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  .gallery-item {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item img:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="imagenes/imagen 1.jfif" alt="Obra de arte 1">
+  </div>
+  <div class="gallery-item">
+    <img src="imagenes/imagen 2.jfif" alt="Obra de arte 2">
+  </div>
+  <div class="gallery-item">
+    <img src="imagenes/imagen 3.jfif" alt="Obra de arte 3">
+  </div>
+  <div class="gallery-item">
+    <img src="imagenes/imagen 4.jfif" alt="Obra de arte 4">
+  </div>
+  <div class="gallery-item">
+    <img src="imagenes/imagen 5.jfif" alt="Obra de arte 5">
+  </div>
+  <div class="gallery-item">
+    <img src="imagenes/imagen 6.jfif" alt="Obra de arte 6">
+   </div>
+  <div class="gallery-item">
+    <img src="imagenes/imagen 8.jfif" alt="Obra de arte 7"
+  </div>  
+</div>
+</body>
+</html>
+
